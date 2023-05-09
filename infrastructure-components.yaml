@@ -13503,7 +13503,7 @@ apiVersion: v1
 kind: ServiceAccount
 metadata:
   annotations:
-    AWSIAMRoleControllers/#arn/eks.amazonaws.com/role-arn: arn:aws:iam::777749315841:role/controllers.cluster-api-provider-aws.sigs.k8s.io
+    arn:aws:iam::777749315841:role/controllers.cluster-api-provider-aws.sigs.k8s.io: arn
   labels:
     cluster.x-k8s.io/provider: infrastructure-aws
     control-plane: controller-manager
